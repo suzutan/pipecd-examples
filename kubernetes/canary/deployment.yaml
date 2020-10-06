@@ -4,6 +4,7 @@ metadata:
   name: canary
   labels:
     app: canary
+    hello: world
 spec:
   replicas: 3
   revisionHistoryLimit: 2
